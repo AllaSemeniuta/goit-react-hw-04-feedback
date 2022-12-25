@@ -27,7 +27,6 @@ export const App = () => {
 
       default:
         throw new Error(`No case for feedback type: ${selectOption}`);
-        break;
     }
   };
 
